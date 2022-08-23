@@ -3,8 +3,8 @@
 This is a solution to the [Advice generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/omoloye13/Qr_Code)
-- Live Site URL: [Add live site URL here](https://omoloye13.github.io/Qr_Code/)
+- Solution URL: [Add solution URL here](https://github.com/omoloye13/Advice-Generator-App)
+- Live Site URL: [Add live site URL here](https://advice-generator-app-livid-six.vercel.app/)
 ### Built with
 
 - JSX

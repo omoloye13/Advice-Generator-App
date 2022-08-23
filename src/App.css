@@ -62,7 +62,9 @@ body{
 .divider {
   margin-bottom: 2rem;
 }
-
+.mobile_divider{
+  display: none;
+}
 @media(max-width:762px){
   .container{
     position: relative;
@@ -70,7 +72,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #323a49;
-    width: 100%;
+    width: 90%;
     border-radius: 20px;
     text-align: center;
     padding: 2rem 3rem;
@@ -81,8 +83,13 @@ body{
   }
   .divider {
     margin-bottom: 2rem;
+    display: none;
     /* width: 100%; */
     /* border: solid red; */
+  }
+  .mobile_divider{
+    display: block;
+    margin-bottom: 2em;
   }
 }
 

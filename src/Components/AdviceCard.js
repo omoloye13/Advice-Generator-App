@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Dice from "./Dice";
 import Divider from "./Divider";
+import MobileDivider from "./Mobiledivider";
 
 const AdviceCard = () => {
 const [advice, setAdvice] = useState([]);
@@ -29,6 +30,7 @@ const [advice, setAdvice] = useState([]);
                     <h2 className="card_number">Advice # {advice.id}</h2>
                     <p className="card_text">{advice.advice}</p>
                     <Divider />
+                    <MobileDivider />
                     <button className="card_button" onClick={() => {fetchData()}}>
                         <Dice />
                     </button>
